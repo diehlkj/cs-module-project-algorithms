@@ -5,7 +5,12 @@ Returns: an integer
 def eating_cookies(n):
     # Your code here
 
-    pass
+    # print(n % 1)
+    
+    print(int(n / 2))
+    print(n % 2)
+    
+    # print(n % 3)
 
 if __name__ == "__main__":
     # Use the main function here to test out your implementation
