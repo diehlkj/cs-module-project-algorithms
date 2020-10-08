@@ -4,20 +4,9 @@ Returns: an integer
 '''
 def single_number(arr):
     # Your code here
-
-    index = 0
-    
-    while index <= len(arr) - 1:
-        
-        count = 0
-        
-        for i in arr:
-            if index == len(arr) - 1 and count == 1:
-                return i
-
-            elif arr[index] == i:
-                count += 1
-            index += 1
+    for i in arr:
+        if arr.count(i) == 1:
+            return i
 
 
 if __name__ == '__main__':
