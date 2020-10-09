@@ -2,8 +2,6 @@
 Input: an integer
 Returns: an integer
 '''
-cookie_total = 0
-
 def eating_cookies(n):
     # Your code here
     
